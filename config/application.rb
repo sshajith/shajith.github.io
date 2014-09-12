@@ -53,6 +53,10 @@ module Logix
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
+    config.assets.precompile += %w(grid.css)
+    config.assets.precompile += %w(reset.css)
+    config.assets.precompile += %w(superfish.css)
+
     # Enable the asset pipeline
     config.assets.enabled = true
 
