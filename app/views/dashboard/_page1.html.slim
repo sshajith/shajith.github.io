@@ -1,0 +1,46 @@
+#page1.content
+  .container_12
+    .grid_12
+      .slider_wrapper
+        ul.items
+          li
+            img alt="" src="assets/spacer.gif" 
+              .caption.banner
+                h2 Let Us Show You the Way to Success
+          li
+            img alt="" src="assets/spacer.gif" 
+              .caption.banner
+                h2 Interminable Energy for Your Project
+          li
+            img alt="" src="assets/spacer.gif" 
+              .caption.banner
+                h2 We know how to solve your problems!
+          li
+            img alt="" src="assets/spacer.gif" 
+              .caption.banner
+                h2 Make your business a booming one!
+      .socials
+        a href="#" 
+        a href="#" 
+        a href="#" 
+        a href="#" 
+
+javascript:
+  $(document).ready(function(){
+    $('.slider_wrapper')._TMS({
+      show:0,
+      pauseOnHover:false,
+      prevBu:'.prev',
+      nextBu:'.next',
+      playBu:false,
+      duration:800,
+      preset:'fade',
+      pagination:true,
+      pagNums:false,
+      slideshow:8000,
+      numStatus:false,
+      banners: 'fade',
+      waitBannerAnimation:false,
+      progressBar:false
+    });
+  });
