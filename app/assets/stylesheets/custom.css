@@ -1,0 +1,19 @@
+#page5 dd {
+	padding-top: 10px;
+}
+#page5 dd span {
+	padding-left: 25px;
+}
+
+#page5 a.link-1 {
+	color: white;
+	padding-left: 18px;
+	font-size: 15px;
+}
+
+#page5 a.link-2 {
+	color: white;
+	font-size: 15px;
+	padding-left: 28px;
+}
+

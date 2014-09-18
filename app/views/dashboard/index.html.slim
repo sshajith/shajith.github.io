@@ -1,3 +1,4 @@
+
 = render 'header'
 = render 'page1'
 = render 'page2'
@@ -20,12 +21,31 @@ javascript:
   			while(map[i++]<=win.scrollTop());
   			if(currClass!==names[i-2])
   			currClass=names[i-2]
-  			header.removeAttr("class").addClass(names[i-2])
+        header.removeAttr("class").addClass(names[i-2])
   		})
+
   }(); });
   function goToByScroll(id){
   	$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+
   }
   $(document).ready(function(){
   	$().UItoTop({ easingType: 'easeOutQuart' });
+    //updateHeader()
+    //$('.mitem').click(function(){
+    //  if($(this).text()==' Home'){
+    //    $('#header').css('background', "none")
+    //  }
+    //  else
+    //    $('#header').removeAttr('style')
+    //})
+
+    function updateHeader(text){
+      var page = $('#header').attr('class')
+      if(page=='page1')
+        $('#header').css('background', "none")
+      else
+        $('#header').removeAttr('style')
+    }
+
   });
