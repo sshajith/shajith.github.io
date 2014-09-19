@@ -168,7 +168,7 @@ header {
 	z-index: 999;
 	left: 0;
 	right: 0;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	top: 0;
 	overflow: hidden;
 	background-color: transparent;
@@ -317,11 +317,13 @@ header.page4 .hover {
 }
 
 #page5 {
-	background-color: #3f9fc9;
+	//background-color: #3f9fc9;
+	background-color: #2F2F2F;
 }
 
 header.page5{
 	background-color: #3f9fc9;
+	background-color: #2f2f2f;
 }
 
 header.page5 .hover {

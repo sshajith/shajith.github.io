@@ -29,6 +29,8 @@ logo.png: logo-7a9dd58ed049a35684ffd50b61ad4618.png
 logo/index.png: logo-7a9dd58ed049a35684ffd50b61ad4618.png
 logo1.jpg: logo1-679e598835ee0a3382cc1d48f892f100.jpg
 logo1/index.jpg: logo1-679e598835ee0a3382cc1d48f892f100.jpg
+logo1.png: logo1-c2e0c18123f4ef52fe5aeb589c3c2d4a.png
+logo1/index.png: logo1-c2e0c18123f4ef52fe5aeb589c3c2d4a.png
 logo2.jpg: logo2-e57d63581d3c6d6b878fe43ce8788862.jpg
 logo2/index.jpg: logo2-e57d63581d3c6d6b878fe43ce8788862.jpg
 logo3.jpg: logo3-329af0eeac78483ef5291b77fb890e29.jpg
@@ -65,8 +67,8 @@ PIE.php: PIE-3ff20503a01d915eb64a5c79c3800874.php
 PIE/index.php: PIE-3ff20503a01d915eb64a5c79c3800874.php
 application.js: application-176a90ce945ab43be8d822ccce958d19.js
 application/index.js: application-176a90ce945ab43be8d822ccce958d19.js
-application.css: application-040f2d91dd4a29ba9253be800a5917c5.css
-application/index.css: application-040f2d91dd4a29ba9253be800a5917c5.css
+application.css: application-e6e4aa680566a4ae3a3aa78813dbc301.css
+application/index.css: application-e6e4aa680566a4ae3a3aa78813dbc301.css
 grid.css: grid-caddc4718b4879f5622e588e7e6fb9af.css
 grid/index.css: grid-caddc4718b4879f5622e588e7e6fb9af.css
 reset.css: reset-1f71970c8b46dfaf7a44e03236246956.css

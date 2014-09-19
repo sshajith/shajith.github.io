@@ -1,8 +1,11 @@
 header.page1#header
   .container_12
     .grid_12
-      a href="#" onClick=("goToByScroll('page1'); return false;")  style="display:inline;"
-        h1(style="font-size:35px;font-weight:800")  logixweb
+      a href="#" onClick=("goToByScroll('page1'); return false;")  style="display:inline;" class="title-group"
+        = image_tag 'logo1.png', :class => 'title-logo'
+        h1.title1  Logix
+        h1.title2  Web
+        span.desc Bridging Your Business & Web
         /img alt=("Gerald Harris attorney at law") src="assets/logo.png"
       .menu_block
         nav
