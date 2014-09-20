@@ -20,41 +20,77 @@
 h1.title1 {
 	font-size: 35px;
 	font-weight: 800;
-	padding: 15px 5px 15px 15px;
-	border-radius: 5px 0 0 5px;
-	text-shadow: 5px 0 0 black;
-	background: -webkit-linear-gradient(left top, rgb(71, 84, 184) , black);
-	margin-top: 30px;
+	//padding: 15px 5px 15px 15px;
+	//border-radius: 5px 0 0 5px;
+	//text-shadow: 5px 0 0 black;
+	//background: -webkit-linear-gradient(left top, rgb(71, 84, 184) , black);
+	//margin-top: 30px;
+
+	margin-top:15px;
+	background:rgb(255, 92, 112);
+	background:transparent;
+	padding:15px;
+    margin-right: 25px;
+    border-radius: 5px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-left: 2px solid;
 }
 
 h1.title2 {
 	font-size: 35px;
 	font-weight: 800;
-	padding: 15px 15px 15px 0;
-	text-shadow: 5px 0 0 black;
-	background: -webkit-linear-gradient(right top, rgb(98, 93, 212), black);
-	border-radius: 0 5px 5px 0;
-	margin-top: 30px;
+	//padding: 15px 15px 15px 0;
+	//text-shadow: 5px 0 0 black;
+	//background: -webkit-linear-gradient(right top, rgb(98, 93, 212), black);
+	//border-radius: 0 5px 5px 0;
+	//margin-top: 30px;
+
+	//color: black;
+	//background:rgb(255, 92, 112);
+	background:transparent;
+	margin-top:15px;
+	padding:15px;
+	margin-left: 25px;
+	border-radius: 5px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-right: 2px solid;
 }
 
 .title-logo {
-	width: 90px;
-	left: 95px;
-	top: 10px;
-	position: absolute;
-	background: -webkit-linear-gradient(left top, rgb(71, 84, 184) , black);
-	border-radius: 50%;
+	width: 60px;
+	//left: 95px;
+	//top: 10px;
+	//position: absolute;
+	//background: -webkit-linear-gradient(left top, rgb(71, 84, 184) , black);
+	//border-radius: 50%;
+
+	background: rgb(255, 92, 112);
+	background:transparent;
+	margin-top:11px;
+	left: -155px;
+	position: relative;
+	border-radius: 5px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
 }
 
 .desc {
 	font-family: 'Signika', sans-serif;
 	font-size: 18px;
-	top: 85px;
-	position: relative;
-	left: -170px;
+	//top: 85px;
+	//position: relative;
+	//left: -170px;
+
+	margin-left:10px;
 }
 
 .title-group:hover {
 	color:white;
 }
 
+.products {
+	border: 5px solid white;
+	border-radius: 5px;
+}

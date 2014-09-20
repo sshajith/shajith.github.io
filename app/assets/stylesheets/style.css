@@ -510,7 +510,7 @@ header.page5 .hover {
 }
 
 #page5 .slogan {
-	margin-bottom: 110px;
+	margin-bottom: 50px;
 }
 /****Map***/
 
@@ -538,7 +538,7 @@ header.page5 .hover {
 }
 .map figure iframe {
 	width: 100%;
-	height: 218px;
+	//height: 218px;
 	max-width: 100%;
 }
 

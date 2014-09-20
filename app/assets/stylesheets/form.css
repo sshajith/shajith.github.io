@@ -40,13 +40,13 @@ padding-top: 6px;
 	position:relative;
 	display: block;
 	min-height: 51px;
-	width: 185px;
+	width: 50%;
 	float: left;
 }
 
 
 .email {
-	margin-left: 10px;
+	//margin-left: 10px;
 }
 
 
@@ -80,7 +80,7 @@ padding-top: 6px;
 	position:relative;
 	padding-top: 20px;
 	text-align: center;
-
+	margin-left: -130px;
 }
 
 
