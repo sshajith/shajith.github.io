@@ -19,7 +19,7 @@
 
 h1.title1 {
 	font-size: 35px;
-	font-weight: 800;
+	font-weight: 600;
 	//padding: 15px 5px 15px 15px;
 	//border-radius: 5px 0 0 5px;
 	//text-shadow: 5px 0 0 black;
@@ -29,7 +29,7 @@ h1.title1 {
 	margin-top:15px;
 	background:rgb(255, 92, 112);
 	background:transparent;
-	padding:15px;
+	padding:10px 5px;
     margin-right: 25px;
     border-radius: 5px;
 	border-top: 2px solid;
@@ -39,7 +39,7 @@ h1.title1 {
 
 h1.title2 {
 	font-size: 35px;
-	font-weight: 800;
+	font-weight: 600;
 	//padding: 15px 15px 15px 0;
 	//text-shadow: 5px 0 0 black;
 	//background: -webkit-linear-gradient(right top, rgb(98, 93, 212), black);
@@ -50,7 +50,7 @@ h1.title2 {
 	//background:rgb(255, 92, 112);
 	background:transparent;
 	margin-top:15px;
-	padding:15px;
+	padding:10px 5px;
 	margin-left: 25px;
 	border-radius: 5px;
 	border-top: 2px solid;
@@ -59,7 +59,7 @@ h1.title2 {
 }
 
 .title-logo {
-	width: 60px;
+	width: 50px;
 	//left: 95px;
 	//top: 10px;
 	//position: absolute;
@@ -69,7 +69,7 @@ h1.title2 {
 	background: rgb(255, 92, 112);
 	background:transparent;
 	margin-top:11px;
-	left: -155px;
+	left: -130px;
 	position: relative;
 	border-radius: 5px;
 	border-top: 2px solid;
@@ -78,7 +78,7 @@ h1.title2 {
 
 .desc {
 	font-family: 'Signika', sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 	//top: 85px;
 	//position: relative;
 	//left: -170px;

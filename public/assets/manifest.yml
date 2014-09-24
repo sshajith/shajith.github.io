@@ -21,8 +21,10 @@ camera-loader.gif: camera-loader-9b3dce6932d3612ef116184773989d24.gif
 camera-loader/index.gif: camera-loader-9b3dce6932d3612ef116184773989d24.gif
 cfc.png: cfc-5f32c3a8f65a680f56eaddd713c8025f.png
 cfc/index.png: cfc-5f32c3a8f65a680f56eaddd713c8025f.png
-favicon.ico: favicon-103cd070f2cbddead9fa5fddb3724ec3.ico
-favicon/index.ico: favicon-103cd070f2cbddead9fa5fddb3724ec3.ico
+favicon.png: favicon-926e0db01c29d22cbf96310b15389b83.png
+favicon/index.png: favicon-926e0db01c29d22cbf96310b15389b83.png
+favicon1.ico: favicon1-103cd070f2cbddead9fa5fddb3724ec3.ico
+favicon1/index.ico: favicon1-103cd070f2cbddead9fa5fddb3724ec3.ico
 fbalert.png: fbalert-1323429f4724abbfd6eac4f7dda8bcf3.png
 fbalert/index.png: fbalert-1323429f4724abbfd6eac4f7dda8bcf3.png
 footer_logo.png: footer_logo-2c4f48827970cc514b2a5deac77a031d.png
@@ -33,6 +35,8 @@ idesign.png: idesign-4391acd63705cd4742376e50ef1c8b5c.png
 idesign/index.png: idesign-4391acd63705cd4742376e50ef1c8b5c.png
 link_marker.png: link_marker-a1db624e3a88af9e105a9bc9d31c2144.png
 link_marker/index.png: link_marker-a1db624e3a88af9e105a9bc9d31c2144.png
+logo-black.png: logo-black-56b920b074a6871edb9f8708fc093510.png
+logo-black/index.png: logo-black-56b920b074a6871edb9f8708fc093510.png
 logo.png: logo-7a9dd58ed049a35684ffd50b61ad4618.png
 logo/index.png: logo-7a9dd58ed049a35684ffd50b61ad4618.png
 logo1.jpg: logo1-679e598835ee0a3382cc1d48f892f100.jpg
@@ -77,8 +81,8 @@ PIE.php: PIE-3ff20503a01d915eb64a5c79c3800874.php
 PIE/index.php: PIE-3ff20503a01d915eb64a5c79c3800874.php
 application.js: application-176a90ce945ab43be8d822ccce958d19.js
 application/index.js: application-176a90ce945ab43be8d822ccce958d19.js
-application.css: application-45f1f559173426dae77cfcfbe603add7.css
-application/index.css: application-45f1f559173426dae77cfcfbe603add7.css
+application.css: application-8a4ed2164b013e75894c9c24ed1986a5.css
+application/index.css: application-8a4ed2164b013e75894c9c24ed1986a5.css
 grid.css: grid-caddc4718b4879f5622e588e7e6fb9af.css
 grid/index.css: grid-caddc4718b4879f5622e588e7e6fb9af.css
 reset.css: reset-1f71970c8b46dfaf7a44e03236246956.css
