@@ -4,8 +4,10 @@ html
     meta charset="utf-8"
     meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta name="description" content="#{t :desc}"
     meta name="Keywords" content="logixweb, tirunelveli, india, web, development, design"
     meta name="alexaVerifyID" content="_aw19DZbLqOl02dNysnpZbaebSw"
+    = analytics_init if Rails.env.production?
     title = t :title
     = csrf_meta_tags 
 
