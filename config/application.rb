@@ -55,6 +55,8 @@ module Logix
 
     config.assets.precompile += %w(grid.css)
     config.assets.precompile += %w(reset.css)
+    config.assets.precompile += %w(home.css)
+    config.assets.precompile += %w(home.js)
     config.assets.precompile += %w(superfish.css)
 
     # Enable the asset pipeline
