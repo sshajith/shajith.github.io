@@ -11,9 +11,10 @@ html
     title = t :title
     = csrf_meta_tags 
 
-    = stylesheet_link_tag    "application", :media => "all"
-    = javascript_include_tag "application" 
+    = stylesheet_link_tag    "home", :media => "all"
+    = javascript_include_tag "home" 
     /link rel="shortcut icon" href="/favicon.ico" 
     link id="favicon" rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.png"
 body
   = yield
+

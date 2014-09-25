@@ -12,3 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-migrate-1.1.1
+//= require superfish
+//= require forms
+//= require jquery.ui.totop
+//= require jquery.equalheights
+//= require jquery.easing.1.3
+//= require jquery.ui.totop
+//= require tms-0.4.1
+// require_tree .

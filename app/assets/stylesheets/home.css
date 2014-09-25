@@ -10,4 +10,10 @@
  *
  *= require_self
  * require_tree .
-  */
+ *= require style
+ *= require camera
+ *= require form
+ *= require ie
+ *= require font-awesome
+ *= require custom
+ */

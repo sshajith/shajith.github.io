@@ -79,10 +79,10 @@ PIE.htc: PIE-b75b08a256ba03c78633d6c0c98acf8e.htc
 PIE/index.htc: PIE-b75b08a256ba03c78633d6c0c98acf8e.htc
 PIE.php: PIE-3ff20503a01d915eb64a5c79c3800874.php
 PIE/index.php: PIE-3ff20503a01d915eb64a5c79c3800874.php
-application.js: application-176a90ce945ab43be8d822ccce958d19.js
-application/index.js: application-176a90ce945ab43be8d822ccce958d19.js
-application.css: application-8a4ed2164b013e75894c9c24ed1986a5.css
-application/index.css: application-8a4ed2164b013e75894c9c24ed1986a5.css
+application.js: application-a530b545094b88c4c5dc0d6e6bfe0913.js
+application/index.js: application-a530b545094b88c4c5dc0d6e6bfe0913.js
+application.css: application-1b13569e9620782f423d4cd3ce931750.css
+application/index.css: application-1b13569e9620782f423d4cd3ce931750.css
 grid.css: grid-caddc4718b4879f5622e588e7e6fb9af.css
 grid/index.css: grid-caddc4718b4879f5622e588e7e6fb9af.css
 reset.css: reset-1f71970c8b46dfaf7a44e03236246956.css
