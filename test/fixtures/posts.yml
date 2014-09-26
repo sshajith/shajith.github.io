@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyText
+  scheduled_on: 2014-09-25 20:48:16
+  url: MyString
+  account_ids: MyText
+  category: MyString
+  state: MyString
+  user: 
+
+two:
+  title: MyText
+  scheduled_on: 2014-09-25 20:48:16
+  url: MyString
+  account_ids: MyText
+  category: MyString
+  state: MyString
+  user: 

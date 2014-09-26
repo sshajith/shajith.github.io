@@ -1,0 +1,34 @@
+= simple_form_for @post, :input_html => { :class => "form-control" } do |f|
+  - if @post.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+      ul
+        - @post.errors.full_messages.each do |message|
+          li = message
+  = f.text_area :title, :rows => 3
+  br
+  #date
+    = f.input :scheduled_on, :default => {:hour => Time.now.hour}, :label => false
+    br
+  /= f.text_field :url
+  /= f.text_field :category
+  /= f.text_field :state
+  = f.input :user_id, :input_html => {:value => current_user.id}, :as => :hidden
+  br
+  hr
+  - current_user.accounts.each do |acc|
+    = check_box_tag 'post[account_ids][]', acc.id
+    = acc.name
+  '
+  = f.submit 'Post', :class => 'btn btn-primary pull-right'
+  = link_to 'Post Later', '#', :id => 'btn_later', :class => 'btn btn-warning pull-right'
+
+javascript:
+  
+  $(function(){
+    $("#date").hide();
+    $("#btn_later").click(function(e){
+      $(this).hide();
+      $("#date").show();
+    })
+  })

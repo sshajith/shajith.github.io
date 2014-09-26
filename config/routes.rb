@@ -1,4 +1,5 @@
 Logix::Application.routes.draw do
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -55,4 +56,23 @@ Logix::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+
+  # FbXtras 
+  root :to => 'dashboard#index', :constraints => lambda {|r| r.env["warden"].authenticate? }
+
+  root :to => 'home#index'
+  devise_for :users, controllers: {omniauth_callbacks: 'users/omniauth_callbacks'}
+  match 'auth/failure', to: redirect('/')
+
+  devise_for :users
+  resources :users
+
+  namespace :admin do
+
+  end
+  resources :dashboard
+  match 'login' => 'dashboard#login'
+
+  resources :posts
+
 end

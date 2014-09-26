@@ -1,0 +1,45 @@
+.row
+  .col-lg-3
+    //h3 Welcome #{current_user.name.capitalize}
+  .col-lg-4
+    h3 Post
+    = render 'posts/form'
+    hr
+    - current_user.posts.each do |post|
+      - if !post.state.nil?
+        b = post.title
+        br
+        = post.state
+      - else
+        b = post.title
+      br
+      - post.get_accounts.each do |account|
+        - if account.provider == 'Facebook'
+          .label.label-primary
+            = account.name+'-'+ account.provider
+        - if account.provider == 'Twitter'
+          .label.label-info
+            = account.name+'-'+ account.provider
+      hr
+  .col-lg-2
+  .col-lg-3
+    h4 Your Accounts
+    table.table
+      - current_user.accounts.each do |account|
+        - if account.provider == 'Facebook'
+          tr
+            td
+              .label.label-primary
+                = account.name+'-'+ account.provider
+            td = link_to 'x', '#', :class => 'btn btn-danger btn-xs'
+        - if account.provider == 'Twitter'
+          tr
+            td
+              .label.label-info
+                = account.name+'-'+ account.provider
+            td = link_to 'x', '#', :class => 'btn btn-danger btn-xs'
+    hr
+    = link_to user_omniauth_authorize_path(:facebook), :class => 'btn btn-primary gradient login-button' do
+      //i.fa.fa-facebook.fa-lg
+      b    Add Facebook
+    = link_to 'Add Twitter', user_omniauth_authorize_path(:twitter), :class => 'btn btn-info gradient login-button'

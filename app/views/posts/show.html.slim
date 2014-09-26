@@ -1,0 +1,27 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @post.title
+p
+  strong Scheduled on:
+  = @post.scheduled_on
+p
+  strong Url:
+  = @post.url
+p
+  strong Account ids:
+  = @post.account_ids
+p
+  strong Category:
+  = @post.category
+p
+  strong State:
+  = @post.state
+p
+  strong User:
+  = @post.user
+
+= link_to 'Edit', edit_post_path(@post)
+'|
+= link_to 'Back', posts_path

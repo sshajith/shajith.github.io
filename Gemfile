@@ -40,3 +40,23 @@ gem 'google-analytics-rails'
 
 # To use debugger
 # gem 'debugger'
+
+### FbXtras gems
+
+gem 'devise'
+gem 'simple_form'
+gem 'contact_us', '~> 0.4.0'
+gem "paperclip", "3.4.0"
+gem "paperclip-dropbox"
+gem 'attribute_choices'
+gem 'nested_form'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'twitter'
+gem "koala", "~> 1.8.0rc1"
+gem "delayed_job", "~> 2.1.4"
+gem "twitter-bootstrap-rails", '2.1.6'
+gem 'less-rails', '~> 2.2.3'
+gem 'acts_as_tenant', :git => 'https://github.com/henrydjacob/acts_as_tenant.git'
+gem 'sucker_punch'

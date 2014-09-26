@@ -12,6 +12,7 @@ Logix::Application.configure do
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
@@ -34,4 +35,10 @@ Logix::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  #fbxtras
+  ENV['FACEBOOK_KEY'] = '539286242828843'
+  ENV['FACEBOOK_SECRET'] = 'bf89da4b65b566da8674d8fce4225b87'
+  ENV['TWITTER_KEY'] = 'gm2zn9a3tAyZEnKA87U3afKLr'
+  ENV['TWITTER_SECRET'] = 'dRfpUY9kzIyAJu99INhHdvlusIOF3AzfqCTzBTvbT4kb9tUUzo'
 end
