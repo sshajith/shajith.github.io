@@ -61,7 +61,6 @@ ActiveRecord::Schema.define(:version => 20140925151816) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
-    t.integer  "account_id"
     t.string   "name"
     t.string   "username"
     t.string   "gender"
