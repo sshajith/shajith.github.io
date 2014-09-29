@@ -41,6 +41,10 @@ gem 'google-analytics-rails'
 # To use debugger
 # gem 'debugger'
 
+group :development do  
+	gem 'newrelic_rpm'
+end
+
 ### FbXtras gems
 
 gem 'devise'
