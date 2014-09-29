@@ -42,7 +42,7 @@ gem 'google-analytics-rails'
 # gem 'debugger'
 
 group :development do  
-	gem 'newrelic_rpm'
+	#gem 'newrelic_rpm'
 end
 
 ### FbXtras gems

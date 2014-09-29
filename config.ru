@@ -2,7 +2,7 @@
 
 require ::File.expand_path('../config/environment',  __FILE__)
 
-require 'new_relic/rack/developer_mode'
-use NewRelic::Rack::DeveloperMode
+#require 'new_relic/rack/developer_mode'
+#use NewRelic::Rack::DeveloperMode
 
 run Logix::Application
